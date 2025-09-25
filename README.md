@@ -6,8 +6,10 @@ Production-grade, embeddable weather widget built with React, TypeScript, and Vi
 
 ## Live Demo & Deployment Status
 
-- **Live Demo:** [View on GitHub Pages](https://ricoaprillananda.github.io/Weathure-Widget/)
-- **Status:** Automatically deployed on every push to `main` via GitHub Actions ([see workflow](.github/workflows/deploy.yml))
+[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?logo=github)](https://ricoaprillananda.github.io/WEATHURE-WIDGET/)
+
+- **Live Demo:** [https://ricoaprillananda.github.io/WEATHURE-WIDGET/](https://ricoaprillananda.github.io/WEATHURE-WIDGET/)
+- **Status:** Automatically deployed on every push to `main` via GitHub Actions ([see workflow](.github/workflows/pages.yml))
 - **Static Output:** All assets are built to `/dist` and served as a PWA
 
 ---
