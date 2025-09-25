@@ -1,10 +1,10 @@
-# Weathure Widget UI
+# Weathure Widget UI 🌧️☔
 
 Production-grade, embeddable weather widget built with React, TypeScript, and Vite. Features responsive design, theming, accessibility (WCAG AA), PWA/offline-first, i18n (EN/ID), data caching, and background refresh.
 
 ---
 
-## 🚀 Live Demo & Deployment Status
+## Live Demo & Deployment Status
 
 - **Live Demo:** [View on GitHub Pages](https://ricoaprillananda.github.io/Weathure-Widget/)
 - **Status:** Automatically deployed on every push to `main` via GitHub Actions ([see workflow](.github/workflows/deploy.yml))
