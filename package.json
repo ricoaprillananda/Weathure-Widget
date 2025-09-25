@@ -58,7 +58,7 @@
         "autoprefixer": "^10.4.21",
         "commitlint": "^17.7.2",
         "conventional-changelog-cli": "^4.1.0",
-        "eslint": "^8.51.0",
+        "eslint": "^9.36.0",
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-jsx-a11y": "^6.7.1",
         "eslint-plugin-react": "^7.33.2",
