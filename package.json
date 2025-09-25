@@ -1,0 +1,78 @@
+{
+    "name": "weathure-widget",
+    "version": "1.0.0",
+    "description": "Production-grade, embeddable weather widget UI (React + TypeScript + Vite)",
+    "author": "ricoaprillananda",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.esm.js",
+            "require": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist",
+        "src"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "build:lib": "vite build --config vite.config.ts --mode library",
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint . --max-warnings=0",
+        "format": "prettier --write .",
+        "test": "vitest run",
+        "test:e2e": "playwright test",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "^4.36.1",
+        "@tanstack/react-router": "^1.18.0",
+        "chart.js": "^4.4.2",
+        "i18next": "^25.5.2",
+        "leaflet": "^1.9.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^15.7.3",
+        "shadcn-ui": "^0.7.0",
+        "zustand": "^4.4.7"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.55.1",
+        "@storybook/addon-a11y": "^7.6.0",
+        "@storybook/addon-docs": "^7.6.0",
+        "@storybook/react": "^7.6.0",
+        "@testing-library/react": "^14.1.2",
+        "@types/axios": "^0.14.4",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@typescript-eslint/eslint-plugin": "^6.7.2",
+        "@typescript-eslint/parser": "^6.7.2",
+        "@vitejs/plugin-react": "^5.0.3",
+        "autoprefixer": "^10.4.21",
+        "commitlint": "^17.7.2",
+        "conventional-changelog-cli": "^4.1.0",
+        "eslint": "^8.51.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-jsx-a11y": "^6.7.1",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^15.1.0",
+        "playwright": "^1.39.0",
+        "postcss": "^8.4.31",
+        "prettier": "^3.0.3",
+        "release-please": "^15.7.1",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.2.2",
+        "vite": "^4.4.9",
+        "vite-plugin-pwa": "^1.0.3",
+        "vitest": "^0.34.6"
+    }
+}
