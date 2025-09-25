@@ -41,7 +41,7 @@
         "react-dom": "^18.2.0",
         "react-i18next": "^15.7.3",
         "shadcn-ui": "^0.7.0",
-        "zustand": "^4.4.7"
+        "zustand": "^5.0.8"
     },
     "devDependencies": {
         "@playwright/test": "^1.55.1",
